@@ -59,7 +59,7 @@ Production Kubernetes cluster for CAMARA API services. Provisioned as part of th
 - cert-manager/letsencrypt-prod (1 replica) — TLS certificates
 
 **External consumers:**
-- AT&T internal API gateway → routes to camara-gateway
+- tier-1 carrier internal API gateway → routes to camara-gateway
 - Partner integrations → consume CAMARA APIs
 - Monitoring dashboards → Grafana shows cluster health
 
